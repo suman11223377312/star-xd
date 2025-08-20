@@ -1,5 +1,5 @@
 {
-  "name": "star-xd",
+  "name": "suman bot",
   "version": "1.0.0",
   "description": "WhatsApp Bot",
   "main": "index.js",
@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "docker:build": "docker build -t star xd .",
+    "docker:build": "docker build -tsuman labu .",
     "docker:run": "docker run -e SESSION_ID=$SESSION_ID star"
   },
   "keywords": [
